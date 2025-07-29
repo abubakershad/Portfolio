@@ -23,19 +23,19 @@ export default function Navbar() {
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <FaCode className="text-2xl text-blue-600" />
-        <span className="text-xl font-bold tracking-wide text-white">Abu Bakr Shad</span>
+        <span className="text-xl font-bold tracking-wide text-white">Abu Baker Shad</span>
       </div>
 
       {/* Center nav links (desktop only) */}
       <div className="hidden md:flex space-x-8 text-gray-200 font-medium">
         {navLinks.map((link) => (
-          <a
+          <Link
             key={link}
             href={`#${link.toLowerCase()}`}
             className="hover:text-blue-600 transition"
           >
             {link}
-          </a>
+          </Link>
         ))}
       </div>
 

@@ -8,7 +8,7 @@ export default function SocialLinks() {
       <div className="flex justify-center space-x-6 mb-4">
 
         <Link
-          href="https://github.com/abu-bakr-shad"
+          href="https://github.com/abubakershad"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-gray-300 transition duration-300 text-2xl"
@@ -17,7 +17,7 @@ export default function SocialLinks() {
         </Link>
 
         <Link
-          href="https://www.linkedin.com/in/abu-bakr-shad"
+          href="https://www.linkedin.com/in/abu-baker-shad"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition duration-300 text-2xl"
@@ -42,7 +42,7 @@ export default function SocialLinks() {
           <FaWhatsapp size={24} />
         </Link>
 
-        <Link href="mailto:abubakrshad111@gmail.com"
+        <Link href="mailto:abubakershad.dev@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-red-400 transition duration-300 text-2xl"

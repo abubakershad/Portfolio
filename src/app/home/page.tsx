@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen text-center px-4">
-      <div className="text-7xl font-bold mb-4 text-blue-600">
-        Hi, I&apos;m Abu Bakr
+      <div className="text-7xl font-bold mb-4 text-blue-600 mt-10 md:mt-10">
+        Hi, I&apos;m Abu Baker
       </div>
 
       <div className="text-3xl text-gray-300 mb-4">
@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
 
       <Link
-        href="/experience/Abu Bakr Shad.pdf" download
+        href="/experience/Abu Baker Shad.pdf" download
         className="font-medium border-blue-600 bg-blue-600 text-gray-300 border-2 px-6 py-3 rounded-full hover:bg-gray-900 hover:text-blue-600 shadow-md transition flex items-center"
       >
         Download CV

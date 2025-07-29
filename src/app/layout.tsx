@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Abu Bakr Shad | Fronted Web Developer",
+  title: "Abu Baker Shad | Web Developer",
   description: "Welcome to Abu Bakr Shad portfolio. Frontend Web Developer and Specializing in Next.js, React.js, Tailwind.js, Sanity.io, etc."
 };
 
