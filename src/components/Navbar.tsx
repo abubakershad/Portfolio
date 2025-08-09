@@ -44,7 +44,7 @@ export default function Navbar() {
         {/* Let’s Connect (hidden on very small screens) */}
         {!isSmallScreen && (
           <Link
-            href="https://linkedin.com/in/abu-baker-shad" target="_blank"
+            href="https://www.linkedin.com/in/abu-baker-shad" target="_blank"
             className="border-2 border-blue-600 text-blue-600 px-4 py-2 rounded-full font-medium hover:bg-blue-600 hover:text-white transition duration-300 hidden sm:block"
           >
             Let’s Connect
